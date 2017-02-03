@@ -28,7 +28,7 @@
 ```typescript
 // controllers/usersController.ts
 
-import {Get, Route} from 'tsoa';
+import {Get, Post, Route} from 'tsoa';
 import {UserService} from '../services/userService';
 import {User, UserCreationRequest} from '../models/user';
 
